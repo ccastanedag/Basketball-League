@@ -14,7 +14,7 @@ class App extends Component {
           <Switch>
             <Route path='/' exact component={Home} />
             <Route path='/players' component={Players} />
-            <Route path='/teams' exact component={Teams} />
+            <Route path='/teams' component={Teams} />
             <Route render={() => <h1 className='text-center'>Four oh Four (404)</h1>} />
           </Switch>
         </div>
