@@ -33,7 +33,7 @@ export default class Players extends Component {
     const { players, loading } = this.state
     const { match, location } = this.props
     return (
-      <div className='container two-colum'>
+      <div className='container two-column'>
         <Sidebar
           loading={loading}
           title='Players'
