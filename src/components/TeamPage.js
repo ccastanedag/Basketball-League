@@ -64,7 +64,7 @@ export default class TeamPage extends Component {
               <ul className='articles'>
                 {articles.map((article) => (
                   <li key={article.id}>
-                    <Link to={`${match.ul}/articles/${slug(article.title)}`}>
+                    <Link to={`${match.url}/articles/${slug(article.title)}`}>
                       <h4 className='article-title'>{article.title}</h4>
                       <div className='article-date'>{article.date.toLocaleDateString()}</div>
                     </Link>
